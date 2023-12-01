@@ -1,0 +1,196 @@
+/*Configuracion general*/
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+
+/*Confirguracion de primer nivel*/
+
+#cabecera {
+    background-color: rgba(250, 241, 241, 0.573);
+    margin: auto;
+    padding: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+   float: right;
+}
+
+.imglogo {
+    padding: 10px 10px 10px 10px;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 18px;
+    /*background-color: blue;*/
+}
+
+
+/* Barra de navegación */
+
+.navbar{
+    background-color: rgba(250, 241, 241, 0.573);
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding:5px 20px;
+    font-size: 20px;
+}
+.navbar select {
+    color: rgb(1, 0, 0);
+    font-size: 15px;
+    text-decoration: none;
+    padding: 0 15px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar nav {
+    color: rgba(250, 241, 241, 0.573);
+    background-color: rgba(250, 241, 241, 0.573);
+    font-weight: bold;
+    justify-content: center;
+    font-size: 15px;
+}
+
+/* Imágenes en el menú */
+.navbar img {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.titulo{
+    width: 100%;
+    height: 340px;
+    background-color: rgba(250, 241, 241, 0.573);
+    background-image: url(./Img/fondo.jpg);
+    position: relative;
+    overflow: hidden;
+    
+}
+
+
+.titulo h1{
+    display: flex;
+   /* align-items: center;*/
+   position: relative;
+   left: 35%;
+   top: 20%;
+ font-size: 85px;
+ color: rgb(251, 210, 210);
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+.encabezado1{
+   overflow: hidden;
+   padding: 55px 0;
+}
+
+.encabezado1 h3{
+    width: 25%;
+    height: 45px;
+    background-color: rgb(170, 161, 161);
+    color: white;
+    text-align: start;
+    font-size: 35px;
+}
+
+/*Creamos las cards del menu*/
+.container {
+    display: inline-flex;
+    gap: 20px;
+   position: relative;
+    left: 5%;
+  }
+  .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  .card img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .card .card-body {
+    padding: 16px;
+  }
+  .card h5 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+  }
+
+  .card p {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  .card .btn {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(170, 161, 161);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  .card .btn:hover {
+    color: rgb(170, 161, 161);
+    border: 3px solid rgb(170, 161, 161);
+    font-weight: bold;
+    background-color: transparent;
+    transition: all 3.s;
+  }
+
+  @media (max-width: 768px) {
+    .card {
+      width: calc(50% - 20px);
+    }
+  }
+  @media (max-width: 576px) {
+    .card {
+      width: 100%;
+    }
+  }
+
+  #footer2{
+    overflow: hidden;
+    background-color: rgb(170, 161, 161);
+}
+
+.socialMedia2{
+   position: relative;
+    left: 45%;
+    padding: 40px 25px 0px 25px;
+   /* padding-right: 55px;*/
+}
+
+.socialMedia2 a{
+    text-decoration: none;
+}
+
+.socialMedia2 p{
+    position: relative;
+    right: 105px;
+    color: white;
+}
